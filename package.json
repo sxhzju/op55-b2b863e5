@@ -1,0 +1,15 @@
+{
+  "name": "op55-zhishiku-sketchbook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hand-drawn motion piece: one ink thread walks through a living sketchbook. Frame-by-frame Canvas render via headless Chrome + FFmpeg.",
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs",
+    "preview": "node render.mjs --preview"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "23.11.1"
+  }
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Sketchbook Thread</title>
+<style>
+  @font-face { font-family: 'WenKai'; src: url('../fonts/WenKai-subset.woff2') format('woff2'); }
+  @font-face { font-family: 'KuaiLe'; src: url('../fonts/KuaiLe-subset.woff2') format('woff2'); }
+  html, body { margin: 0; padding: 0; background: #F2EADB; overflow: hidden; }
+  canvas { display: block; }
+  /* force the fonts to load before the first frame */
+  .pre { position: absolute; left: -9999px; font-size: 20px; }
+</style>
+</head>
+<body>
+<span class="pre" style="font-family:WenKai">知识库收藏</span>
+<span class="pre" style="font-family:KuaiLe">知识库收藏90%</span>
+<canvas id="c" width="1080" height="1440"></canvas>
+<script src="film.js"></script>
+</body>
+</html>
